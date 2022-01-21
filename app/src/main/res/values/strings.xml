@@ -11,5 +11,5 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_dog">Dog</string>
-    <string name="race">Beagle   Golden   Retriver   Labradore   Shibazu</string>
+    <string name="race">Beagle   Golden   Retriver   Labradore</string>
 </resources>
