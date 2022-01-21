@@ -10,7 +10,6 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="Genre">
         <item>Homme</item>
@@ -22,4 +21,6 @@
         <item>Berne</item>
         <item>Geneve</item>
     </string-array>
+    <string name="menu_dog">Dog</string>
+    <string name="race">Beagle   Golden   Retriver   Labradore   Shibazu</string>
 </resources>
