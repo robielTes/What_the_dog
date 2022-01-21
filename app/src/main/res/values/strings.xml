@@ -26,4 +26,5 @@
     </string-array>
     <string name="menu_dog">Dog</string>
     <string name="race">Beagle   Golden   Retriver   Labradore   Shibazu</string>
+    <string name="client">Client</string>
 </resources>
