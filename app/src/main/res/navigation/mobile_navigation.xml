@@ -27,4 +27,9 @@
         android:name="CPNV.what_the_dog.DogFragment"
         android:label="@string/menu_dog"
         tools:layout="@layout/fragment_dog" />
+    <fragment
+        android:id="@+id/nav_creat_client"
+        android:name="CPNV.what_the_dog.CreationClientFragment"
+        android:label="@string/menu_dog"
+        tools:layout="@layout/fragment_creation_client" />
 </navigation>

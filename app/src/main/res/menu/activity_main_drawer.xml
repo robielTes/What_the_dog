@@ -20,5 +20,9 @@
             android:id="@+id/nav_dog"
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/menu_dog" />
+        <item
+            android:id="@+id/nav_creat_client"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/client" />
     </group>
 </menu>
