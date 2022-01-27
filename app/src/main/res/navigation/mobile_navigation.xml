@@ -28,6 +28,16 @@
         android:label="@string/menu_dog"
         tools:layout="@layout/fragment_dog" />
     <fragment
+        android:id="@+id/nav_race"
+        android:name="CPNV.what_the_dog.RaceFragment"
+        android:label="@string/menu_race"
+        tools:layout="@layout/fragment_race" />
+    <fragment
+        android:id="@+id/nav_maladie"
+        android:name="CPNV.what_the_dog.MaladieFragment"
+        android:label="@string/menu_maladie"
+        tools:layout="@layout/fragment_maladie" />
+    <fragment
         android:id="@+id/nav_creat_client"
         android:name="CPNV.what_the_dog.CreationClientFragment"
         android:label="@string/menu_dog"
