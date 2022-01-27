@@ -12,8 +12,8 @@
         android:id="@+id/txtNextAppointment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="8dp"
         android:text="Prochains rendez-vous"
         app:layout_constraintEnd_toStartOf="@+id/button"
@@ -27,13 +27,14 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="18dp"
+        android:backgroundTint="#444545"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtNextAppointment"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="604dp"
         android:layout_marginTop="7dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,36 +44,36 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView"
+                android:id="@+id/card1"
                 android:layout_width="0dp"
                 android:layout_height="177dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#fffbfc"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="411dp"
                     android:layout_height="wrap_content"
-                    android:background="#FFFBFC">
+                    android:background="#FFFBFC"
+                    android:clickable="true"
+                    android:foregroundTint="#D14F4F">
 
                     <TextView
-                        android:id="@+id/textView2"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/service1"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
                         android:text="Coaching en comportement"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.067"
                         app:layout_constraintStart_toStartOf="parent"
-                        tools:layout_editor_absoluteY="16dp" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <ImageView
                         android:id="@+id/btnPhone1"
@@ -81,7 +82,9 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:background="#FFFBFC"
+                        android:clickable="true"
                         android:src="@drawable/ic_phone"
+                        android:tint="#444545"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.961"
                         app:layout_constraintStart_toStartOf="parent"
@@ -93,10 +96,13 @@
                         android:layout_height="40dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
+                        android:clickable="true"
+                        android:foregroundTint="#444545"
                         android:src="@drawable/ic_map"
+                        android:tint="#444545"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.916"
-                        app:layout_constraintStart_toEndOf="@+id/textView2"
+                        app:layout_constraintStart_toEndOf="@+id/service1"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <ImageView
@@ -106,7 +112,9 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="16dp"
+                        android:clickable="true"
                         android:src="@drawable/ic_email"
+                        android:tint="#444545"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.961"
@@ -114,9 +122,426 @@
                         app:layout_constraintTop_toBottomOf="@+id/btnPhone1"
                         app:layout_constraintVertical_bias="1.0" />
 
+                    <TextView
+                        android:id="@+id/clientName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Famille Beaud"
+                        app:layout_constraintTop_toBottomOf="@+id/service1"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="96dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Oops"
+                        android:textColor="#124877"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogRace1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Berger des Shetlands"
+                        app:layout_constraintStart_toEndOf="@+id/dogAge1"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName1" />
+
+                    <TextView
+                        android:id="@+id/dogAge1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="3 ans 3 mois"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName1"
+                        tools:layout_editor_absoluteX="16dp" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="0dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="16dp"
+                android:outlineAmbientShadowColor="#000000"
+                android:outlineSpotShadowColor="#000000"
+                app:cardBackgroundColor="#fffbfc"
+                app:layout_constraintTop_toBottomOf="@+id/card1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="411dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFBFC"
+                    android:clickable="true"
+                    android:foregroundTint="#D14F4F">
+
+                    <TextView
+                        android:id="@+id/service2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Coaching en comportement"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnPhone2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFFBFC"
+                        android:clickable="true"
+                        android:src="@drawable/ic_phone"
+                        android:tint="#444545"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.961"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnMap2" />
+
+                    <ImageView
+                        android:id="@+id/btnMap2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clickable="true"
+                        android:foregroundTint="#444545"
+                        android:src="@drawable/ic_map"
+                        android:tint="#444545"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.916"
+                        app:layout_constraintStart_toEndOf="@+id/service2"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnMail2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:clickable="true"
+                        android:src="@drawable/ic_email"
+                        android:tint="#444545"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.961"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnPhone2"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/clientName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Famille Beaud"
+                        app:layout_constraintTop_toBottomOf="@+id/service2"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="96dp"
+                        android:text="Oopsie"
+                        android:textColor="#AC0CD1"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/dogRace2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Berger des Shetlands"
+                        app:layout_constraintStart_toEndOf="@+id/dogAge2"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName2" />
+
+                    <TextView
+                        android:id="@+id/dogAge2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="3 ans 3 mois"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName2"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="0dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="16dp"
+                android:outlineAmbientShadowColor="#000000"
+                android:outlineSpotShadowColor="#000000"
+                app:cardBackgroundColor="#fffbfc"
+                app:layout_constraintTop_toBottomOf="@+id/card2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="411dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFBFC"
+                    android:clickable="true"
+                    android:foregroundTint="#D14F4F">
+
+                    <TextView
+                        android:id="@+id/service3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Coaching en comportement"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnPhone3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFFBFC"
+                        android:clickable="true"
+                        android:src="@drawable/ic_phone"
+                        android:tint="#444545"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.961"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnMap3" />
+
+                    <ImageView
+                        android:id="@+id/btnMap3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clickable="true"
+                        android:foregroundTint="#444545"
+                        android:src="@drawable/ic_map"
+                        android:tint="#444545"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.916"
+                        app:layout_constraintStart_toEndOf="@+id/service3"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnMail3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:clickable="true"
+                        android:src="@drawable/ic_email"
+                        android:tint="#444545"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.961"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnPhone3"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/clientName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Famille Beaud"
+                        app:layout_constraintTop_toBottomOf="@+id/service3"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="96dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Oops"
+                        android:textColor="#124877"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogRace3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Berger des Shetlands"
+                        app:layout_constraintStart_toEndOf="@+id/dogAge3"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName3" />
+
+                    <TextView
+                        android:id="@+id/dogAge3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="3 ans 3 mois"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName3"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="0dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="16dp"
+                android:outlineAmbientShadowColor="#000000"
+                android:outlineSpotShadowColor="#000000"
+                app:cardBackgroundColor="#fffbfc"
+                app:layout_constraintTop_toBottomOf="@+id/card3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="411dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFBFC"
+                    android:clickable="true"
+                    android:foregroundTint="#D14F4F">
+
+                    <TextView
+                        android:id="@+id/service4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Coaching en comportement"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnPhone4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFFBFC"
+                        android:clickable="true"
+                        android:src="@drawable/ic_phone"
+                        android:tint="#444545"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.961"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnMap4" />
+
+                    <ImageView
+                        android:id="@+id/btnMap4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clickable="true"
+                        android:foregroundTint="#444545"
+                        android:src="@drawable/ic_map"
+                        android:tint="#444545"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.916"
+                        app:layout_constraintStart_toEndOf="@+id/service4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/btnMail4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:clickable="true"
+                        android:src="@drawable/ic_email"
+                        android:tint="#444545"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.961"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnPhone4"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/clientName4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Famille Beaud"
+                        app:layout_constraintTop_toBottomOf="@+id/service4"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogName4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="96dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Oops"
+                        android:textColor="#124877"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <TextView
+                        android:id="@+id/dogRace4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Berger des Shetlands"
+                        app:layout_constraintStart_toEndOf="@+id/dogAge4"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName4" />
+
+                    <TextView
+                        android:id="@+id/dogAge4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="3 ans 3 mois"
+                        app:layout_constraintTop_toBottomOf="@+id/dogName4"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
