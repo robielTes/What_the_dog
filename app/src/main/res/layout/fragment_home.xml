@@ -8,6 +8,9 @@
     android:background="#FFFBFC"
     tools:context=".ui.home.HomeFragment">
 
+
+
+
     <TextView
         android:id="@+id/txtNextAppointment"
         android:layout_width="wrap_content"
