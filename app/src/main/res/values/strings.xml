@@ -37,6 +37,7 @@
     <string name="listclient">Listclient</string>
     <string name="cr_e_un_rdv">Crée un RDV</string>
     <string name="liste_des_services">Liste des services</string>
+    <string name="menu_create_dog">Créer un chien</string>
     <string name="menu_services_detail">Service Detail</string>
     <string-array name="service">
         <item>"Coaching en comportement"</item>

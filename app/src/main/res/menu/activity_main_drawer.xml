@@ -13,9 +13,9 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_create_dog"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/menu_create_dog" />
         <item
             android:id="@+id/nav_creat_client"
             android:icon="@mipmap/ic_launcher_foreground"
