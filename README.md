@@ -21,7 +21,7 @@ cd What_the_dog
 ```
 
 ## Documentation
-- [Mockup.pdf](/Document/maquette/what_the_dog.pdf)
+- [Mockup.pdf](/Document/maquette/What_the_dog.pdf)
 
 
 # CONTACT
