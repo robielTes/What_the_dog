@@ -24,6 +24,9 @@
         <item>Berne</item>
         <item>Geneve</item>
     </string-array>
+    <string name="menu_list_dog">List dog</string>
+    <string name="menu_list_race">List race</string>
+    <string name="menu_list_maladie">List maladie</string>
     <string name="menu_dog">Dog</string>
     <string name="menu_race">Race</string>
     <string name="menu_maladie">Maladie</string>
@@ -31,5 +34,10 @@
     <string name="job">Chasse   Compagnon   Garde   Travail</string>
     <string name="maladie">Zoonose   Prévention   Symptômes</string>
     <string name="client">Client</string>
-
+    <string-array name="service">
+        <item>"Coaching en comportement"</item>
+        <item>"Cours d'education prives"</item>
+        <item>"Conseils personnalises"</item>
+        <item>"Accompagnement face a la peur des chiens"</item>
+    </string-array>
 </resources>

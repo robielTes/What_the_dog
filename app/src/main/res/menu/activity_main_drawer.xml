@@ -21,13 +21,25 @@
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/client" />
         <item
+            android:id="@+id/nav_list_dog"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/menu_list_dog" />
+        <item
             android:id="@+id/nav_dog"
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/menu_dog" />
         <item
+            android:id="@+id/nav_list_race"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/menu_list_race" />
+        <item
             android:id="@+id/nav_race"
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/menu_race" />
+        <item
+            android:id="@+id/nav_list_maladie"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/menu_list_maladie" />
         <item
             android:id="@+id/nav_maladie"
             android:icon="@mipmap/ic_launcher_foreground"

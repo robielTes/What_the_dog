@@ -1,14 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CreateRdv">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</FrameLayout>
+        <EditText
+            android:id="@+id/editTextTextEmailAddress13"
+            android:layout_width="291dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="435dp"
+            android:ems="10"
+            android:hint="Adresse"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="140dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="368dp"
+            android:entries="@array/Etat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.323"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="140dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="460dp"
+            android:entries="@array/service"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.368"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress11"
+            android:layout_width="140dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="239dp"
+            android:layout_marginTop="371dp"
+            android:layout_marginBottom="304dp"
+            android:ems="10"
+            android:hint="Zip"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress10"
+            android:layout_width="291dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="306dp"
+            android:layout_marginBottom="362dp"
+            android:ems="10"
+            android:hint="Ville"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress16"
+            android:layout_width="293dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="529dp"
+            android:layout_marginBottom="149dp"
+            android:ems="10"
+            android:hint="@string/client"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="55dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="461dp"
+            android:layout_marginEnd="324dp"
+            android:layout_marginBottom="217dp"
+            android:src="@drawable/ic_baseline_model_training_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="55dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="148dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress14"
+            android:layout_width="285dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="581dp"
+            android:ems="10"
+            android:hint="Date et heure"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress15"
+            android:layout_width="283dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="519dp"
+            android:ems="10"
+            android:hint="Durée"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:text="Création RDV"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="55dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginBottom="445dp"
+            android:src="@drawable/ic_baseline_location_on_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="55dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginEnd="322dp"
+            android:layout_marginBottom="581dp"
+            android:src="@drawable/ic_baseline_calendar_month_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
