@@ -2,14 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/txt1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFBFC"
+    android:backgroundTint="#0FFFBF"
     tools:context=".ui.home.HomeFragment">
-
-
-
 
     <TextView
         android:id="@+id/txtNextAppointment"
@@ -129,10 +125,10 @@
                         android:id="@+id/clientName1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="2dp"
                         android:text="Famille Beaud"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/service1"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -140,11 +136,11 @@
                         android:id="@+id/dogName1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="96dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="96dp"
                         android:text="Oops"
                         android:textColor="#124877"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -162,10 +158,10 @@
                         android:id="@+id/dogAge1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="10dp"
                         android:text="3 ans 3 mois"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/dogName1"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -181,9 +177,9 @@
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#fffbfc"
-                app:layout_constraintTop_toBottomOf="@+id/card1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card1">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="411dp"
@@ -253,10 +249,10 @@
                         android:id="@+id/clientName2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="2dp"
                         android:text="Famille Beaud"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/service2"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -285,10 +281,10 @@
                         android:id="@+id/dogAge2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="10dp"
                         android:text="3 ans 3 mois"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/dogName2"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -304,9 +300,9 @@
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#fffbfc"
-                app:layout_constraintTop_toBottomOf="@+id/card2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card2">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="411dp"
@@ -376,10 +372,10 @@
                         android:id="@+id/clientName3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="2dp"
                         android:text="Famille Beaud"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/service3"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -387,11 +383,11 @@
                         android:id="@+id/dogName3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="96dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="96dp"
                         android:text="Oops"
                         android:textColor="#124877"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -409,10 +405,10 @@
                         android:id="@+id/dogAge3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="10dp"
                         android:text="3 ans 3 mois"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/dogName3"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -428,9 +424,9 @@
                 android:outlineAmbientShadowColor="#000000"
                 android:outlineSpotShadowColor="#000000"
                 app:cardBackgroundColor="#fffbfc"
-                app:layout_constraintTop_toBottomOf="@+id/card3"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card3">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="411dp"
@@ -500,10 +496,10 @@
                         android:id="@+id/clientName4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="2dp"
                         android:text="Famille Beaud"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/service4"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -511,11 +507,11 @@
                         android:id="@+id/dogName4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="96dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="96dp"
                         android:text="Oops"
                         android:textColor="#124877"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -533,10 +529,10 @@
                         android:id="@+id/dogAge4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="10dp"
                         android:text="3 ans 3 mois"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/dogName4"
                         tools:layout_editor_absoluteX="16dp" />
 
@@ -547,5 +543,4 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
