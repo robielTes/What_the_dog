@@ -33,6 +33,21 @@
         android:label="@string/menu_list_dog"
         tools:layout="@layout/fragment_list_dog" />
     <fragment
+        android:id="@+id/nav_create_rdv"
+        android:name="CPNV.what_the_dog.CreateRdv"
+        android:label="@string/cr_e_un_rdv"
+        tools:layout="@layout/fragment_create_rdv" />
+    <fragment
+        android:id="@+id/nav_service_list"
+        android:name="CPNV.what_the_dog.ServiceList"
+        android:label="@string/liste_des_services"
+        tools:layout="@layout/fragment_service_list" />
+    <fragment
+        android:id="@+id/nav_list_client"
+        android:name="CPNV.what_the_dog.ListClientFragment"
+        android:label="@string/listclient"
+        tools:layout="@layout/fragment_list_client" />
+    <fragment
         android:id="@+id/nav_dog"
         android:name="CPNV.what_the_dog.DogFragment"
         android:label="@string/menu_dog"

@@ -34,7 +34,7 @@
     <string name="job">Chasse   Compagnon   Garde   Travail</string>
     <string name="maladie">Zoonose   Prévention   Symptômes</string>
     <string name="client">Client</string>
-    <string name="listclient">Listclient</string>
+    <string name="listclient">List client</string>
     <string name="cr_e_un_rdv">Crée un RDV</string>
     <string name="liste_des_services">Liste des services</string>
     <string name="menu_create_dog">Créer un chien</string>
