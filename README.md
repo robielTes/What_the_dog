@@ -1,5 +1,19 @@
 # What_the_dog
-Service chien
+
+What the dog is a user-oriented application that will offer several services. Through the application, the user will be able to
+
+- consult your calendar and your appointments
+- synchronize your calendar
+- create a new client
+- consult different information about each client.
+- create a new appointment
+- consult the different information on the services
+- consult his agenda
+- add a new dog
+- consult different information about individual dogs.
+- consult different information on dog breeds.
+- consult different information on dog diseases.
+
 
 
 ## Table of contents
@@ -10,7 +24,9 @@ Service chien
 
 
 ## Prerequisites
+- [GitHub](https://github.com/)
 - [Android Studio](https://developer.android.com/studio)
+- [Balsamiq](https://balsamiq.com/)
 
 
 ## Setting up dev
