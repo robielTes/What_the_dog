@@ -68,4 +68,10 @@
         android:name="CPNV.what_the_dog.fragment_create_dog"
         android:label="@string/menu_create_dog"
         tools:layout="@layout/fragment_create_dog" />
+
+    <fragment
+        android:id="@+id/nav_list_appointment"
+        android:name="CPNV.what_the_dog.list_appointments"
+        android:label="@string/list_appointments"
+        tools:layout="@layout/fragment_create_dog" />
 </navigation>
