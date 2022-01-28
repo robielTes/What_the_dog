@@ -221,5 +221,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="313dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/ic_baseline_get_app_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
