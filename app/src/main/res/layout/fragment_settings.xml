@@ -8,7 +8,7 @@
     tools:context=".ui.settings.SettingsFragment">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLogin"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,11 +20,11 @@
         android:textColor="#FFFBFC"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleLogin"
         app:strokeColor="#62BBC1" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtLblCalendar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,13 +32,13 @@
         android:layout_marginEnd="16dp"
         android:text="Synchronisation calendrier"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/btnLogin"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleLogin" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtTitleLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="86dp"
