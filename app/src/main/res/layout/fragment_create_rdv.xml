@@ -45,12 +45,12 @@
 
         <Spinner
             android:id="@+id/spinner3"
-            android:layout_width="140dp"
-            android:layout_height="57dp"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
             android:layout_marginTop="460dp"
             android:entries="@array/service"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.368"
+            app:layout_constraintHorizontal_bias="0.731"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -97,6 +97,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
 
+        <EditText
+            android:id="@+id/editTextTextEmailAddress62"
+            android:layout_width="293dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="Chien"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="585dp" />
+
         <ImageView
             android:id="@+id/imageView13"
             android:layout_width="55dp"
@@ -113,7 +123,7 @@
             android:id="@+id/imageView14"
             android:layout_width="55dp"
             android:layout_height="51dp"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="32dp"
             android:layout_marginBottom="148dp"
             android:src="@drawable/ic_baseline_account_circle_24"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -185,6 +195,17 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/max_blue_green"
+            android:textColor="@color/snow"
+            android:text="Réserver"
+            tools:layout_editor_absoluteX="265dp"
+            tools:layout_editor_absoluteY="636dp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

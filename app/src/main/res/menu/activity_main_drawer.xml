@@ -21,6 +21,18 @@
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/client" />
         <item
+            android:id="@+id/nav_list_client"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/listclient" />
+        <item
+            android:id="@+id/nav_create_rdv"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/cr_e_un_rdv" />
+        <item
+            android:id="@+id/nav_service_list"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/liste_des_services" />
+        <item
             android:id="@+id/nav_list_dog"
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/menu_list_dog" />
