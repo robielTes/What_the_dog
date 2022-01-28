@@ -33,6 +33,10 @@
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/liste_des_services" />
         <item
+            android:id="@+id/nav_service_detail"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/menu_services_detail" />
+        <item
             android:id="@+id/nav_list_dog"
             android:icon="@mipmap/ic_launcher_foreground"
             android:title="@string/menu_list_dog" />
