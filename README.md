@@ -1,5 +1,7 @@
 # What_the_dog
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=robielcpnv&repo=What_the_dog&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
 What the dog is a user-oriented application that will offer several services. Through the application, the user will be able to
 
 - consult your calendar and your appointments
