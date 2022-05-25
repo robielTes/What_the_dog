@@ -7,86 +7,86 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="CPNV.what_the_dog.ui.home.HomeFragment"
+        android:name="ch.cpnv.what_the_dog.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="CPNV.what_the_dog.ui.gallery.GalleryFragment"
+        android:name="ch.cpnv.what_the_dog.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="CPNV.what_the_dog.ui.slideshow.SlideshowFragment"
+        android:name="ch.cpnv.what_the_dog.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_service_detail"
-        android:name="CPNV.what_the_dog.ServiceDetailFragment"
+        android:name="ch.cpnv.what_the_dog.ServiceDetailFragment"
         android:label="@string/menu_services_detail"
         tools:layout="@layout/fragment_service_detail" />
     <fragment
         android:id="@+id/nav_list_dog"
-        android:name="CPNV.what_the_dog.ListDogFragment"
+        android:name="ch.cpnv.what_the_dog.ListDogFragment"
         android:label="@string/menu_list_dog"
         tools:layout="@layout/fragment_list_dog" />
     <fragment
         android:id="@+id/nav_create_rdv"
-        android:name="CPNV.what_the_dog.CreateRdv"
+        android:name="ch.cpnv.what_the_dog.CreateRdv"
         android:label="@string/cr_e_un_rdv"
         tools:layout="@layout/fragment_create_rdv" />
     <fragment
         android:id="@+id/nav_service_list"
-        android:name="CPNV.what_the_dog.ServiceList"
+        android:name="ch.cpnv.what_the_dog.ServiceList"
         android:label="@string/liste_des_services"
         tools:layout="@layout/fragment_service_list" />
     <fragment
         android:id="@+id/nav_list_client"
-        android:name="CPNV.what_the_dog.ListClientFragment"
+        android:name="ch.cpnv.what_the_dog.ListClientFragment"
         android:label="@string/listclient"
         tools:layout="@layout/fragment_list_client" />
     <fragment
         android:id="@+id/nav_dog"
-        android:name="CPNV.what_the_dog.DogFragment"
+        android:name="ch.cpnv.what_the_dog.DogFragment"
         android:label="@string/menu_dog"
         tools:layout="@layout/fragment_dog" />
     <fragment
         android:id="@+id/nav_list_race"
-        android:name="CPNV.what_the_dog.ListRaceFragment"
+        android:name="ch.cpnv.what_the_dog.ListRaceFragment"
         android:label="@string/menu_list_race"
         tools:layout="@layout/fragment_list_race" />
     <fragment
         android:id="@+id/nav_race"
-        android:name="CPNV.what_the_dog.RaceFragment"
+        android:name="ch.cpnv.what_the_dog.RaceFragment"
         android:label="@string/menu_race"
         tools:layout="@layout/fragment_race" />
     <fragment
         android:id="@+id/nav_list_maladie"
-        android:name="CPNV.what_the_dog.ListMaladieFragment"
+        android:name="ch.cpnv.what_the_dog.ListMaladieFragment"
         android:label="@string/menu_list_maladie"
         tools:layout="@layout/fragment_list_maladie" />
     <fragment
         android:id="@+id/nav_maladie"
-        android:name="CPNV.what_the_dog.MaladieFragment"
+        android:name="ch.cpnv.what_the_dog.MaladieFragment"
         android:label="@string/menu_maladie"
         tools:layout="@layout/fragment_maladie" />
     <fragment
         android:id="@+id/nav_creat_client"
-        android:name="CPNV.what_the_dog.CreationClientFragment"
+        android:name="ch.cpnv.what_the_dog.CreationClientFragment"
         android:label="@string/menu_dog"
         tools:layout="@layout/fragment_creation_client" />
 
     <fragment
         android:id="@+id/nav_create_dog"
-        android:name="CPNV.what_the_dog.fragment_create_dog"
+        android:name="ch.cpnv.what_the_dog.fragment_create_dog"
         android:label="@string/menu_create_dog"
         tools:layout="@layout/fragment_create_dog" />
 
     <fragment
         android:id="@+id/nav_list_appointment"
-        android:name="CPNV.what_the_dog.list_appointments"
+        android:name="ch.cpnv.what_the_dog.list_appointments"
         android:label="@string/list_appointments"
         tools:layout="@layout/fragment_create_dog" />
 </navigation>

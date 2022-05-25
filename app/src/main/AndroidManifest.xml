@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="CPNV.what_the_dog">
+    package="ch.cpnv.what_the_dog">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="ch.cpnv.what_the_dog.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.What_the_dog.NoActionBar">
