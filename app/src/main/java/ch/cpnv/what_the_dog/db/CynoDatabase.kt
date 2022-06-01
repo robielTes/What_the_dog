@@ -6,6 +6,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import ch.cpnv.what_the_dog.db.entities.*
 import kotlinx.coroutines.CoroutineScope
+import ch.cpnv.what_the_dog.db.dao.ClientDao
 
 // Annotates class to be a Room Database with a table (entity) of the Word class
 @Database(entities = arrayOf(Client::class), version = 1, exportSchema = false)
@@ -14,7 +15,6 @@ abstract class CynoDatabase : RoomDatabase() {
 
     // DAOs
     
-    abstract fun dogDao(): DogDao
     abstract fun clientDao(): ClientDao
 
 
