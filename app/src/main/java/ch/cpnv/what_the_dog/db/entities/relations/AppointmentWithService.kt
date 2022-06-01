@@ -13,7 +13,7 @@ data class AppointmentWithService(
         parentColumn = "id_service",
         entityColumn = "id"
     )
-    val service: Service?
+    val service: Service
 ){
 
 }

@@ -1,4 +1,4 @@
-package ch.cpnv.what_the_dog.db.entities.relations
+package ch.cpnv.what_the_dog.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
