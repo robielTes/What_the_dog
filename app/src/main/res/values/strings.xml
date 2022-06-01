@@ -24,9 +24,9 @@
         <item>Berne</item>
         <item>Geneve</item>
     </string-array>
-    <string name="menu_list_dog">List dog</string>
-    <string name="menu_list_race">List race</string>
-    <string name="menu_list_maladie">List maladie</string>
+    <string name="menu_list_dog">Liste dog</string>
+    <string name="menu_list_race">Liste race</string>
+    <string name="menu_list_maladie">Liste maladie</string>
     <string name="menu_dog">Dog</string>
     <string name="menu_race">Race</string>
     <string name="menu_maladie">Maladie</string>
@@ -34,7 +34,7 @@
     <string name="job">Chasse   Compagnon   Garde   Travail</string>
     <string name="maladie">Zoonose   Prévention   Symptômes</string>
     <string name="client">Client</string>
-    <string name="listclient">List client</string>
+    <string name="listclient">Liste client</string>
     <string name="cr_e_un_rdv">Crée un RDV</string>
     <string name="liste_des_services">Liste des services</string>
     <string name="menu_create_dog">Créer un chien</string>
