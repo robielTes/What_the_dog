@@ -1,10 +1,7 @@
 package ch.cpnv.what_the_dog.db.dao
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import ch.cpnv.what_the_dog.db.entities.Breed
 
 @Dao
@@ -15,5 +12,14 @@ interface BreedDao {
 
     @Query("SELECT * from breeds")
     fun getBreeds(): LiveData<List<Breed>>
+
+    @Query("SELECT * FROM breeds WHERE id = :id")
+    suspend fun getBreed(id: Int): Breed
+
+    @Update
+    suspend fun updateDogs(vararg dogs: Breed)
+
+    @Delete
+    suspend fun deleteDogs(vararg dogs: Breed)
 
 }
