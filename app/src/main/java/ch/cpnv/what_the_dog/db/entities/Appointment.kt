@@ -17,5 +17,4 @@ data class Appointment(
     @ColumnInfo(name = "id_service") val id_service: Int,
     @ColumnInfo(name = "id_dog") val id_dog: Int,
     @ColumnInfo(name = "id_client") val id_client: Int
-
     )
