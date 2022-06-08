@@ -4,18 +4,20 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import ch.cpnv.what_the_dog.db.dao.BreedDao
 import ch.cpnv.what_the_dog.db.entities.*
 import kotlinx.coroutines.CoroutineScope
 import ch.cpnv.what_the_dog.db.dao.ClientDao
 
 // Annotates class to be a Room Database with a table (entity) of the Word class
-@Database(entities = arrayOf(Client::class), version = 1, exportSchema = false)
+@Database(entities = arrayOf(Client::class, Breed::class), version = 1, exportSchema = false)
 @TypeConverters(TypeConverter::class)
 abstract class CynoDatabase : RoomDatabase() {
 
     // DAOs
     
     abstract fun clientDao(): ClientDao
+    abstract fun breedDao(): BreedDao
 
 
     companion object {
