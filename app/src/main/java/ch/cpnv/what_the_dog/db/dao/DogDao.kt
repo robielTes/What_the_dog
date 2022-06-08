@@ -7,17 +7,17 @@ import ch.cpnv.what_the_dog.db.entities.Dog
 interface DogDao {
 
     @Query("SELECT * FROM dogs")
-    fun loadAllDogs(): Array<Dog>
+    fun getDogs(): List<Dog>
 
     @Query("SELECT * FROM dogs WHERE id = :id")
-    fun loadDog(id: Int): Dog
+    suspend fun getDog(id: Int): Dog
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertDogs(vararg dogs: Dog)
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insert(dog: Dog)
 
     @Update
-    fun updateDogs(vararg dogs: Dog)
+    suspend fun updateDogs(vararg dogs: Dog)
 
     @Delete
-    fun deleteDogs(vararg users: Dog)
+    suspend fun deleteDogs(vararg dogs: Dog)
 }
