@@ -11,9 +11,8 @@ data class Appointment(
     @ColumnInfo(name = "date") val date: Date,
     @ColumnInfo(name = "duration") val duration: Int,
     @ColumnInfo(name = "address") val address: String,
-    @ColumnInfo(name = "city") val city: String,
-    @ColumnInfo(name = "zipcode") val zipcode: String,
     @ColumnInfo(name = "state") val state: String,
+    @ColumnInfo(name = "id_locality") val id_locality: Int,
     @ColumnInfo(name = "id_service") val id_service: Int,
     @ColumnInfo(name = "id_dog") val id_dog: Int,
     @ColumnInfo(name = "id_client") val id_client: Int
