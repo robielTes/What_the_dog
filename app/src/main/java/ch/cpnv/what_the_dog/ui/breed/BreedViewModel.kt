@@ -1,4 +1,4 @@
-package ch.cpnv.what_the_dog
+package ch.cpnv.what_the_dog.ui.breed
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
