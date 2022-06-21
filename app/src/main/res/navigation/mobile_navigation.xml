@@ -54,14 +54,18 @@
         tools:layout="@layout/fragment_dog" />
     <fragment
         android:id="@+id/nav_list_race"
-        android:name="ch.cpnv.what_the_dog.ListRaceFragment"
+        android:name="ch.cpnv.what_the_dog.fragments.breed.ListBreedFragment"
         android:label="@string/menu_list_race"
-        tools:layout="@layout/fragment_list_race" />
+        tools:layout="@layout/fragment_list_breed" >
+        <action
+            android:id="@+id/action_nav_list_race_to_nav_add_breed"
+            app:destination="@id/nav_add_breed" />
+    </fragment>
     <fragment
         android:id="@+id/nav_race"
-        android:name="ch.cpnv.what_the_dog.RaceFragment"
+        android:name="ch.cpnv.what_the_dog.fragments.breed.BreedFragment"
         android:label="@string/menu_race"
-        tools:layout="@layout/fragment_race" />
+        tools:layout="@layout/fragment_breed" />
     <fragment
         android:id="@+id/nav_list_maladie"
         android:name="ch.cpnv.what_the_dog.ListMaladieFragment"
@@ -89,4 +93,13 @@
         android:name="ch.cpnv.what_the_dog.list_appointments"
         android:label="@string/list_appointments"
         tools:layout="@layout/fragment_create_dog" />
+    <fragment
+        android:id="@+id/nav_add_breed"
+        android:name="ch.cpnv.what_the_dog.fragments.breed.AddBreedFragment"
+        android:label="fragment_add_breed"
+        tools:layout="@layout/fragment_add_breed" >
+        <action
+            android:id="@+id/action_nav_add_breed_to_nav_list_race"
+            app:destination="@id/nav_list_race" />
+    </fragment>
 </navigation>

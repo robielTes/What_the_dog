@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListRaceFragment">
+    tools:context=".fragments.breed.ListBreedFragment">
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputEditText"
@@ -212,13 +212,15 @@
         android:id="@+id/addDogBreed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/onyx"
         android:clickable="true"
         android:focusable="true"
-        android:backgroundTint="@color/onyx"
         android:src="@drawable/ic_baseline_add_24"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textInputEditText"
         app:layout_constraintTop_toTopOf="parent" />
 
 
