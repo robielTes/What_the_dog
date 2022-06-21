@@ -17,9 +17,9 @@ interface BreedDao {
     suspend fun getBreed(id: Int): Breed
 
     @Update
-    suspend fun updateDogs(vararg dogs: Breed)
+    suspend fun updateBreed(vararg dogs: Breed)
 
     @Delete
-    suspend fun deleteDogs(vararg dogs: Breed)
+    suspend fun deleteBreed(vararg dogs: Breed)
 
 }
